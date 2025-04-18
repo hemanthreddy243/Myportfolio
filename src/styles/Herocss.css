@@ -1,0 +1,92 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  gap: 20px;
+  height: 60vh; /* Adjust height for better layout */
+  margin: 0;
+  padding: 0 20px;
+  scroll-margin-top: 70px; 
+  margin-top: 70px; 
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Ensure spacing on smaller screens */
+@media (max-width: 800px) {
+  .hero-container {
+    margin-top: 220px;
+    margin-bottom: 100px; 
+    padding: 0 20px; 
+  }
+
+  .info {
+    padding-top: 20px; 
+    text-align: left; /* Align text to the left */
+    max-width: 100%; 
+  }
+}
+
+/* Responsive Layout for larger screens */
+@media (min-width: 800px) {
+  .hero-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px; /* Keeps the margin-top for large screens */
+    padding: 0 40px; /* Adds padding to the sides for larger screens */
+  }
+
+  .info {
+    text-align: left;
+    padding-top: 0; /* No extra padding on large screens */
+    max-width: 600px; /* Limits width for better layout */
+  }
+}
+
+.hero-container h1, .hero-container h2, .hero-container p {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-image {
+  flex-shrink: 0;
+}
+
+.hero {
+  max-width: 300px;
+  border-radius: 20px;
+}
+
+span {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+span a img {
+  width: 30px;
+}
+
+/* Button styling */
+button {
+  background-color: var(--btn-color);
+  color: var(--btn-text-color);
+  border: none;
+  border-radius: 20px;
+  width: 126px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: transform 200ms ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}

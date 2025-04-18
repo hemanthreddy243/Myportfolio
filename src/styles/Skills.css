@@ -1,0 +1,73 @@
+.skills-container {
+    padding: 30px 20px; /* Reduced padding to match previous sections */
+    text-align: center;
+    background-color: var(--background-color);
+}
+
+.sectionTitle {
+    font-size: 2rem; /* Reduced font size for consistency */
+    margin-bottom: 30px;
+    color: var(--text-color);
+}
+
+.skills-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.skills-category {
+    background-color: var(--card-bg-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills-category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15); /* Slightly lighter hover effect */
+}
+
+.skills-category h3 {
+    font-size: 1.2rem; /* Adjusted heading size */
+    color: var(--btn-color);
+    margin-bottom: 10px;
+}
+
+.skills-category ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 1.1rem; /* Reduced font size for list items */
+}
+
+.skills-category li {
+    margin-bottom: 8px;
+    color: var(--text-color);
+}
+
+.skills-category li:hover {
+    color: var(--btn-color);
+}
+
+/* Responsive Design */
+@media (max-width: 800px) {
+    .skills-content {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .skills-category {
+        padding: 15px; /* Reduced padding for smaller screens */
+    }
+
+    .skills-category h3 {
+        font-size: 1.3rem; /* Smaller heading size on mobile */
+    }
+
+    .skills-category li {
+        font-size: 1rem; /* Smaller font size for mobile */
+    }
+}

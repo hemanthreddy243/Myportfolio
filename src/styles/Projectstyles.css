@@ -1,0 +1,87 @@
+.projects-container {
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px; /* Add margin to avoid overlap with Hero section */
+  }
+  
+  .sectionTitle {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .project-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid var(--border-color);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: var(--background-color);
+  }
+  
+  /* Project Image */
+  .project-image {
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    flex-shrink: 0;
+  }
+  
+  /* Project Content */
+  .project-content {
+    text-align: left;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* View Project Button */
+  .view-project-btn {
+    background-color: var(--btn-color);
+    color: var(--btn-text-color);
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background-color 0.3s;
+  }
+  
+  .view-project-btn:hover {
+    transform: scale(1.05);
+    background-color: #2d73dd;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 800px) {
+    .project-card {
+      flex-direction: column;
+      text-align: center;
+      gap: 15px;
+    }
+  
+    .project-content {
+      align-items: center;
+    }
+  
+    .project-image {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    /* Add padding to avoid overlap with Hero */
+    .projects-container {
+      margin-top: 60px; /* Adjust as needed */
+    }
+  }
+  
