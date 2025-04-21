@@ -9,13 +9,13 @@ function Education() {
             <h2 className="sectionTitle">EDUCATION</h2>
             <div className="education-content">
                 <div className="education-details">
-                    <h4>BVRIT Hyderabad College of Engineering For Women</h4>
+                    <h4>VIGNAN INSTITUTE OF TECHNOLODGY AND SCIENCE</h4>
                     <p>
                         <strong>2022 - 2026</strong><br />
                         Bachelor of Technology in Computer Science and Engineering, Hyderabad, India
                     </p>
                     <p>
-                        <strong>CGPA: 9.22</strong>
+                        <strong>CGPA: 8.0</strong>
                     </p>
                 </div>
                 <img className="education-image" src={educationImage} alt="Education" />

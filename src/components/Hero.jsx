@@ -21,10 +21,10 @@ export default function Hero() {
         <section id="hero" className="hero-container">
             <div className="info">
                 <h1>
-                    Nikitha <br /> Pagadala
+                    Hemanth Reddy <br /> Mudireddy
                 </h1>
                 <p>
-                Hi, I'm a Computer Science and Engineering student at BVRITH, aspiring to become a software engineer. I’m persistent, hardworking, and always eager to explore—whether it's the latest tech trends or new travel destinations.
+                Hi, I'm a Computer Science and Engineering student at VIGNAN, aspiring to become a software engineer. I’m persistent, hardworking, and always eager to explore—whether it's the latest tech trends or new travel destinations.
 
 I love coding and am passionate about learning and applying new technologies in this ever-evolving field.
 
@@ -32,13 +32,13 @@ When I'm not immersed in tech, I channel my creativity into portraiture and desi
                 </p>
                 <span>
                     <a
-                        href="https://www.linkedin.com/in/nikitha-pagadala-1aa043259/"
+                        href="https://www.linkedin.com/in/hemanth-reddy-900215262/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <img src={linkedinicon} alt="LinkedIn" />
                     </a>
-                    <a href="https://github.com/PagadalaNikitha572" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/hemanthreddy243" target="_blank" rel="noopener noreferrer">
                         <img src={githubicon} alt="Github" />
                     </a>
                     <a href="https://leetcode.com/u/Nikitha_Pagadala/" target="_blank" rel="noopener noreferrer">
@@ -48,7 +48,7 @@ When I'm not immersed in tech, I channel my creativity into portraiture and desi
                
             </div>
             <div className="hero-image">
-                <img className="hero" src={myimg} alt="Profile picture of Nikitha" />
+                <img className="hero" src={myimg} alt="Profile picture of Hemanth Reddy Mudireddy" />
             </div>
         </section>
     );
