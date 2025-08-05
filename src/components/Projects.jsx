@@ -12,7 +12,7 @@ function Projects() {
             title: "EVECO- MERN stack",
             description:
                 "Eveco is an eCommerce web application built with the MERN stack, designed to sell, collect, and recycle sustainable items. It aims to promote sustainability by providing a platform for users to buy eco-friendly products and participate in recycling initiatives.",
-            link: "https://github.com/PagadalaNikitha572/Eveco",
+            link: "https://github.com/hemanthreddy243/Eveco",
         },
         {
             id: 2,
