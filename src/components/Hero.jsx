@@ -41,7 +41,7 @@ When I'm not immersed in tech, I channel my creativity into portraiture and desi
                     <a href="https://github.com/hemanthreddy243" target="_blank" rel="noopener noreferrer">
                         <img src={githubicon} alt="Github" />
                     </a>
-                    <a href="https://leetcode.com/u/Nikitha_Pagadala/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://leetcode.com/u/mudireddyhemanthreddy243/" target="_blank" rel="noopener noreferrer">
                         <img src={leetcodeicon} alt="Leetcode" />
                     </a>
                 </span>
