@@ -14,22 +14,7 @@ function Projects() {
                 "Eveco is an eCommerce web application built with the MERN stack, designed to sell, collect, and recycle sustainable items. It aims to promote sustainability by providing a platform for users to buy eco-friendly products and participate in recycling initiatives.",
             link: "https://github.com/hemanthreddy243/Eveco",
         },
-        {
-            id: 2,
-            image: ml,
-            title: "Machine Learning ",
-            description:
-                "This repository contains my machine learning projects, showcasing various algorithms, models, and experiments. It highlights my exploration of libraries like Seaborn, Pandas, NumPy, and more, reflecting my learning and hands-on experience in the field.",
-            link: "https://github.com/PagadalaNikitha572/MachineLearning",
-        },
-        {
-            id: 1,
-            image: h4l,
-            title: "Homelessness Assistance Application",
-            description:
-                "A Salesforce-based application to support volunteering, registration of homeless individuals and orphans, and facilitate adoption services using Salesforce CRM and Service Cloud.",
-            link: "https://github.com/PagadalaNikitha572/Heaven4Life_Salesforce",
-        }
+        
         
     ];
 
