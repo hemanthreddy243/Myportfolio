@@ -15,7 +15,7 @@ function Education() {
                         Bachelor of Technology in Computer Science and Engineering, Hyderabad, India
                     </p>
                     <p>
-                        <strong>CGPA: 8.0</strong>
+                        <strong>CGPA: 8.5</strong>
                     </p>
                 </div>
                 <img className="education-image" src={educationImage} alt="Education" />
