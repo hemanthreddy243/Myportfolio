@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Herocss.css';
-import myimg from '../assets/myimg.jpeg';
+import myimg from '../assets/Hemanth.jpg';
 import githubdark from '../assets/github-dark.svg';
 import githublight from '../assets/github-light.svg';
 import linkedlight from '../assets/linkedin-light.svg';
@@ -48,7 +48,7 @@ When I'm not immersed in tech, I channel my creativity into portraiture and desi
                
             </div>
             <div className="hero-image">
-                <img className="hero" src={myimg} alt="Profile picture of Hemanth Reddy Mudireddy" />
+                <img className="hero" src={Hemanth} alt="Profile picture of Hemanth Reddy Mudireddy" />
             </div>
         </section>
     );
