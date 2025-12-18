@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Herocss.css';
-import myimg from '../assets/Hemanth.jpg';
+import Hemanth from '../assets/Hemanth.jpg';
 import githubdark from '../assets/github-dark.svg';
 import githublight from '../assets/github-light.svg';
 import linkedlight from '../assets/linkedin-light.svg';
